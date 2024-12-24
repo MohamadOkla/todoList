@@ -41,9 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       ? Text(
                           '${_taskController.tasks[index]}',
                           style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.green,
-                          ),
+                              fontSize: 18,
+                              color: Colors.green,
+                              decoration: TextDecoration.lineThrough),
                         )
                       : Text(
                           '${_taskController.tasks[index]}',
